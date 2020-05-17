@@ -17,7 +17,7 @@
 //----------------------------------------------------------------------------------------------------
 int main(void)
 	{
-	uart_init_115200(); // initialize uart
+	uart_init_baud(); // initialize uart
 
 	// set up led pin
 	DDRB |= LED_PIN;       // set led pin for output
